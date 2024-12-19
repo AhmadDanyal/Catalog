@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xW6PcFA7Thg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pewah\\Desktop\\CODING\\.NET\\Catalog\\build.proj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pewah\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\pewah\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
