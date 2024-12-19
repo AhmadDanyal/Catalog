@@ -1,17 +1,17 @@
 ## Catalog
 
 ### Setting Up The Project:
-This project uses a MongoDB docker image for its database and persistent storage. The preferred GUI for interacting with the database is MongoDB Compass (optional).
+This project uses a MongoDB docker image for its database and persistent storage. The use of Docker Desktop for this project is completely optional. The preferred GUI for interacting with the database is MongoDB Compass (optional).
 It also uses Postman API Platform for sending requests, as Swagger has been disabled in app settings. The links for downloading these resources are listed below:
-- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Download MongoDB Compass](https://www.mongodb.com/try/download/compass) (optional)
 - [Download Postman API](https://www.postman.com/downloads/)
+- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/) (optional)
+- [Download MongoDB Compass](https://www.mongodb.com/try/download/compass) (optional)
 
 Once the downloads are complete, go ahead and pull the project to local system. As this is a .NET project, any IDE with .NET SDK installed will work. 
 (Visual Studio and Visual Studio Code are preferred).
 
-### Launching MongoDB using Docker Desktop:
-The next step is to launch an instance of MongoDB using Docker Desktop. Using terminal of choice, enter the following code:
+### Launching MongoDB:
+The next step is to launch an instance of a MongoDB Docker container. Using terminal of choice, enter the following code:
 ```
 docker run -d --name <nameofproject> -p 27017:27017 -v <nameofdatabase>:/data/db mongo
 ```
