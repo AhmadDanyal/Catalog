@@ -1,4 +1,4 @@
-## Catalog
+## Catalog Service
 
 ### Setting Up The Project:
 This project uses a MongoDB docker image for its database and persistent storage. The use of Docker Desktop for this project is completely optional. The preferred GUI for interacting with the database is MongoDB Compass (optional).
